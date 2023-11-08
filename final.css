@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: light;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(154, 199, 72);
+}
+
+header{
+    width: 100svw;
+    height: 12svh;
+    background-color: white;
+    border-bottom: solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+    position: fixed;
+}
+
+header .logo{
+    width: auto;
+    height: 90%;
+    align-self: flex-start;
+}
+
+header h1{
+    max-height: 70px;
+    font-size: min(5svw,30px);
+}
+
+
+
+footer{
+    width: 100svw;
+    height: 8svh;
+    background-color: white;
+    border-top: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    position: fixed;
+    bottom: 0;
+}
+
+footer h3{
+    font-size: 100%;
+}
+
+.container{
+    padding: 0;
+    margin-top: 12svh;
+    overflow: auto !important;
+
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.mapa {
+    width: auto;
+    height: 80svh;
+}
+
+
+
+button{
+    width: 3.9svh;
+    height: 3.9svh;
+    border: solid black;
+    text-align: center;
+    font-size: 2.6svh;
+    font-weight: bold;
+    padding: 0px;
+
+    border-radius: 100px;
+
+    color: black;
+    background-color: yellow;
+}
+
+button:hover{
+    background-color: pink;
+    animation: shake 0.5s;
+}
+
+.a{
+    position: relative;
+    bottom:73.2svh;
+    left: 107.5svh;
+
+}
+
+.b{
+    position: relative;
+    bottom:71.8svh;
+    left: 94svh;
+}
+
+.c{
+    position: relative;
+    bottom:62.5svh;
+    left: 80.2svh;
+}
+
+.d{
+    position: relative;
+    bottom:62.5svh;
+    left: 55.9svh;
+}
+
+.e{
+    position: relative;
+    bottom:67svh;
+    left: 65svh;
+}
+
+.f{
+    position: relative;
+    bottom:74svh;
+    left: 52.3svh;
+}
+
+.g{
+    position: relative;
+    bottom:100.8svh;
+    left: 74svh;
+}
+
+.h{
+    position: relative;
+    bottom:95svh;
+    left: 52svh;
+}
+
+.i{
+    position: relative;
+    bottom:95.5svh;
+    left: 43svh;
+}
+
+.j{
+    position: relative;
+    bottom:98.3svh;
+    left: 22.4svh;
+}
